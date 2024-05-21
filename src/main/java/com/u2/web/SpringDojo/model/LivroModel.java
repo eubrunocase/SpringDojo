@@ -1,39 +1,34 @@
 package com.u2.web.SpringDojo.model;
 
 import java.beans.JavaBean;
+import java.util.ArrayList;
+import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.NonNull;
+
 
 @JavaBean
+@Data
+@AllArgsConstructor
+@NonNull
 public class LivroModel {
 
 	private String titulo;
 	private String editora;
-	
-	
-	
-	
-	public LivroModel() {
-		super();
-	}
+
+    private ArrayList<Object> pesquisa = new ArrayList();
+	private ArrayList<Object> alterarRegistro = new ArrayList();
+	private ArrayList<Object> excluirRegistro = new ArrayList();
+	private ArrayList<Object> listagem = new ArrayList();
+
 
 	public LivroModel(String titulo, String editora) {
 		super();
 		this.titulo = titulo;
 		this.editora = editora;
 	}
-	
-	public String getTitulo() {
-		return titulo;
+
+	public LivroModel() {
 	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-	public String getEditora() {
-		return editora;
-	}
-	public void setEditora(String editora) {
-		this.editora = editora;
-	}
-	
-	
-	
+
 }

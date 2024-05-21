@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: bruno
+Build-Jdk: 21.0.1
+Implementation-Title: SpringDojo
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.u2.web
+Main-Class: ${start-class}
+

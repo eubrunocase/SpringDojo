@@ -12,6 +12,7 @@ import com.u2.web.SpringDojo.model.LivroModel;
 import com.u2.web.SpringDojo.negocio.LivroRN;
 
 @Controller
+
 public class LivroController {
 	
 	LivroRN livroRN = new LivroRN();
