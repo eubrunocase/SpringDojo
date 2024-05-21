@@ -1,14 +1,14 @@
 package com.u2.web.SpringDojo.negocio;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 import com.u2.web.SpringDojo.model.LivroModel;
 
 public class LivroRN {
 
 	HashMap<String, LivroModel> hashLivro = new HashMap<>();
-	
-	
+
 	public boolean cadastrarLivro(LivroModel model) {
 		
 		//Fazer o cadastramento através do título
@@ -20,5 +20,8 @@ public class LivroRN {
 		
 		return true;
 	}
+
+
+
 	
 }

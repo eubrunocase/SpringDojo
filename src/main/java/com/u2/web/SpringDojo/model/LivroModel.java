@@ -16,10 +16,7 @@ public class LivroModel {
 	private String titulo;
 	private String editora;
 
-    private ArrayList<Object> pesquisa = new ArrayList();
-	private ArrayList<Object> alterarRegistro = new ArrayList();
-	private ArrayList<Object> excluirRegistro = new ArrayList();
-	private ArrayList<Object> listagem = new ArrayList();
+    private ArrayList<LivroModel> crud = new ArrayList();
 
 
 	public LivroModel(String titulo, String editora) {
@@ -30,5 +27,8 @@ public class LivroModel {
 
 	public LivroModel() {
 	}
+
+
+
 
 }

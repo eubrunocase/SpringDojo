@@ -1,18 +1,14 @@
 package com.u2.web.SpringDojo.Controller;
 
 import javax.servlet.http.HttpServletRequest;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
-
 import com.u2.web.SpringDojo.model.LivroModel;
 import com.u2.web.SpringDojo.negocio.LivroRN;
 
 @Controller
-
 public class LivroController {
 	
 	LivroRN livroRN = new LivroRN();
